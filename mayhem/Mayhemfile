@@ -1,0 +1,9 @@
+project: Kramer
+target: fuzz-kramer
+testsuite:
+    - file:/testsuite
+
+cmds:
+  - cmd: /src/mayhem/fuzz_kramer.py
+    libfuzzer: true
+    timeout: 12

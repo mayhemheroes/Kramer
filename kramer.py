@@ -169,7 +169,7 @@ X      X     @%%;;@   X  ;  ;  ;  ;  X   @%%;;@     X      X
 
 
 
-Anime.Fade(Center.Center(banner), Colors.red_to_yellow, Colorate.Vertical, enter=True)
+# Anime.Fade(Center.Center(banner), Colors.red_to_yellow, Colorate.Vertical, enter=True)
 
 def main():
     System.Clear()
