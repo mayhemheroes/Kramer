@@ -12,7 +12,7 @@ from os import listdir, mkdir, remove, rmdir, rename, chdir, name
 from shutil import move, copy, rmtree
 from time import sleep
 from binascii import hexlify
-
+import os
 
     
     
@@ -169,7 +169,8 @@ X      X     @%%;;@   X  ;  ;  ;  ;  X   @%%;;@     X      X
 
 
 
-# Anime.Fade(Center.Center(banner), Colors.red_to_yellow, Colorate.Vertical, enter=True)
+if not os.getenv("MAYHEM_FUZZ"):
+    Anime.Fade(Center.Center(banner), Colors.red_to_yellow, Colorate.Vertical, enter=True)
 
 def main():
     System.Clear()
