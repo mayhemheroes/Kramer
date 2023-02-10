@@ -6,6 +6,6 @@ testsuite:
 cmds:
   - cmd: /src/mayhem/fuzz_kramer.py
     env: 
-      MAYHEM_FUZZ: 1
+      MAYHEM_FUZZ: "1"
     libfuzzer: true
     timeout: 12
